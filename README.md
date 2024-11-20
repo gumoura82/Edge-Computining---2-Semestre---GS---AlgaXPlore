@@ -1,7 +1,9 @@
 # Projeto ESP32: Monitoramento de Energia, CO₂ e pH com Envio via MQTT
 
 ## Descrição
-Este projeto utiliza um **ESP32** para monitorar dados simulados de energia, conteúdo de dióxido de carbono (CO₂) e nível de pH. Os dados são coletados por potenciômetros, exibidos em um **LCD I2C** e enviados para um **broker MQTT** para fins de monitoramento remoto.
+O projeto **AlgaXPlore** utiliza um **ESP32** para monitorar dados simulados relacionados à sustentabilidade, como energia gerada (kWh), conteúdo de dióxido de carbono (CO₂) eliminado e nível de pH da água. Os dados são coletados por potenciômetros, exibidos em um **LCD I2C** e enviados para um **broker MQTT**, permitindo o acesso remoto a partir de qualquer lugar.
+
+A proposta do **AlgaXPlore** é simular um sistema que facilita o monitoramento ambiental e energético, apresentando dados importantes de forma acessível e integrando a conectividade IoT para envio e análise remota das informações.
 
 ## Funcionalidades
 - **Leitura de Sensores:** Leitura de valores simulados de energia (kWh), CO₂ (mg/L) e pH.
@@ -9,7 +11,7 @@ Este projeto utiliza um **ESP32** para monitorar dados simulados de energia, con
 - **Conexão Wi-Fi:** O ESP32 conecta-se a uma rede Wi-Fi para comunicação.
 - **Publicação MQTT:** Os dados são enviados para um broker MQTT no formato JSON.
 
----
+
 
 ## Componentes Utilizados
 - 1x ESP32
@@ -18,7 +20,7 @@ Este projeto utiliza um **ESP32** para monitorar dados simulados de energia, con
 - 1x Protoboard
 - Fios de conexão
 
----
+
 
 ## Esquema de Conexão
 Veja abaixo o esquema de conexão:
@@ -39,7 +41,6 @@ Veja abaixo o esquema de conexão:
 3. **Alimentação:**
    - VCC e GND conectados à protoboard a partir do ESP32.
 
----
 
 ## Pré-Requisitos
 - **Software:**
@@ -53,7 +54,7 @@ Veja abaixo o esquema de conexão:
   - Endereço usado: `test.mosquitto.org`
   - Porta: `1883`
 
----
+
 
 ## Configuração do Projeto
 ### Passos:
@@ -73,7 +74,7 @@ Veja abaixo o esquema de conexão:
 4. **Monte o Circuito:**
    - Siga o esquema de conexão fornecido.
 
----
+
 
 ## Uso
 1. Alimente o ESP32.
@@ -89,3 +90,13 @@ Os dados são enviados no formato JSON:
   "co2": 25.30,
   "ph": 7.50
 }
+```
+
+## Link para o Wokwi
+
+https://wokwi.com/projects/414536783852875777
+
+## Nomes e RMs
+
+ - Nome: Gustavo Oliveira de Moura RM: 555827
+ - Nome: Lynn Bueno Rosa RM: 551102
