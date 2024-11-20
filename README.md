@@ -1,4 +1,4 @@
-# AlgaXPlore ESP32: Monitoramento de Energia, CO₂ e pH com Envio via MQTT
+# AlgaXPlore ESP32: Monitoramento de Energia(kWh), CO₂ e pH com Envio via MQTT
 
 ## Descrição
 O projeto **AlgaXPlore** utiliza um **ESP32** para monitorar dados simulados relacionados à sustentabilidade, como energia gerada (kWh), conteúdo de dióxido de carbono (CO₂) eliminado e nível de pH da água. Os dados são coletados por potenciômetros, exibidos em um **LCD I2C** e enviados para um **broker MQTT**, permitindo o acesso remoto a partir de qualquer lugar.
