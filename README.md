@@ -94,9 +94,13 @@ Os dados são enviados no formato JSON:
 
 ## Link para o Wokwi
 
-https://wokwi.com/projects/414536783852875777
+https://wokwi.com/projects/415028738128398337
 
 ## Nomes e RMs
 
  - Nome: Gustavo Oliveira de Moura RM: 555827
  - Nome: Lynn Bueno Rosa RM: 551102
+
+## Link Video
+
+https://www.youtube.com/watch?v=5OsdmkCFeWw
