@@ -25,7 +25,7 @@ A proposta do **AlgaXPlore** é simular um sistema que facilita o monitoramento 
 ## Esquema de Conexão
 Veja abaixo o esquema de conexão:
 
-![Esquema de Conexão](image.png)
+![Esquema de Conexão](image2.png)
 
 ### Detalhes de Conexão
 1. **LCD I2C:**
