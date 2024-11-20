@@ -7,9 +7,9 @@
 LiquidCrystal_I2C lcd(0x27, 20, 4); // Endereço I2C, colunas e linhas do LCD
 
 // Pinos dos potenciômetros
-const int energyPin = 16;  // Potenciômetro 1 (Energia)
-const int carbonPin = 4;   // Potenciômetro 2 (CO2)
-const int phPin = 0;       // Potenciômetro 3 (pH)
+const int energyPin = 34;  // Potenciômetro 1 (Energia)
+const int carbonPin = 35;  // Potenciômetro 2 (CO2)
+const int phPin = 32;     // Potenciômetro 3 (pH)
 
 // Configuração Wi-Fi
 const char* ssid = "SEU_SSID";
